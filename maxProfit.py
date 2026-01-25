@@ -1,5 +1,5 @@
 #Arrays Problem #2: Best Time to Buy & Sell Stock
-#prices = [7,1,5,3,6,4]
+#prices = [7,1,5,3,6,  4]
 # output = 5   # Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5
 
 def maxProfit(prices):
@@ -14,6 +14,6 @@ def maxProfit(prices):
     return max_profit
 
 # Example usage:
-prices = [7, 1, 5, 3, 6, 4]
+prices = [20, 10, 40, 60, 30]
 result = maxProfit(prices)
 print(result)  # Output: 5
