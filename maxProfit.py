@@ -17,3 +17,17 @@ def maxProfit(prices):
 prices = [20, 10, 40, 60, 30]
 result = maxProfit(prices)
 print(result)  # Output: 5
+
+
+#javascript soloution
+# const prices = [20, 10, 40, 60, 30];
+# let minPrice = Number.POSITIVE_INFINITY;
+# let maxPrice = 0;
+# let profit = 0;
+
+# for (let i=0; i<prices.length-1; i++){
+#     minPrice = Math.min(...prices);
+#     maxPrice = Math.max(...prices);
+#     profit = maxPrice - minPrice;
+# }
+# console.log("Total profit erned: ", profit);
