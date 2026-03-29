@@ -2,7 +2,7 @@
 # output = [0,1]    # Because 2 + 7 = 9
 
 # array is a normal list behaves like a dynamic array
-#normal key operations are delete, insert, update, search
+#normal key operations are delete, insert, update, search 
 
 def twoSum(nums, target):
     num_map = {}  # Dictionary to store the complement and its index
